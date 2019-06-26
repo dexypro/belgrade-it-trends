@@ -1,0 +1,144 @@
+header {
+    transition: height 0.4s ease-in-out, background-color 0.4s ease-in-out,
+      box-shadow 0.4s ease-in-out;
+    height: 70px;
+  }
+  
+  header.is-open,
+  header.scroll {
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: 0 2px white;
+  }
+  
+  nav {
+    transition: height 0.5s ease-in-out, background-color 0.2s ease-in-out,
+      box-shadow 0.4s ease-in-out;
+    max-height: 70px;
+  }
+  
+  .is-open nav {
+    max-height: 500px;
+  }
+  
+  .is-open .navbar {
+    background-color: rgb(178, 225, 240);
+    border: 1px solid white;
+    border-top: 0;
+    border-radius: 0px 0px 8px 8px;
+  }
+  
+  .scroll {
+    background: #60c3eb;  
+
+    
+    
+  }
+  
+  .navbar-collapse {
+    transition: all 0.2s ease;
+  }
+  
+  .nav-buttons {
+    margin-left: auto;
+    padding: 15px;
+  }
+  
+  .navbar-toggler {
+    transition: all 0.4s;
+    margin-left: auto;
+    padding: 0.25rem;
+  }
+  
+  .navbar-toggler:focus {
+    outline: 0;
+  }
+  
+  .navbar-toggler:hover {
+    background-color: var(--three);
+  }
+  
+  .navbar-toggler:hover .toggle-button-line {
+    background: #fff;
+  }
+  
+  .toggle-button-line {
+    width: 1.25em;
+    height: 2px;
+    margin: 5px;
+    background: grey;
+  }
+  
+  #header a {
+    color: var(--one);
+  }
+  
+  #header .active {
+    color: #fff;
+  }
+  
+  #header a:hover {
+    color: #fff;
+  }
+  
+  .navbar-collapse #header a {
+    color: rgba(255, 255, 255, 0);
+    transition: color 0.6s ease-in-out;
+  }
+  
+  .navbar-collapse.show #header a {
+    color: var(--one);
+  }
+  
+  .logo-link {
+    /* display: inline-flex; */
+    width: 40%;
+    max-width: 250px;
+  }
+  
+  .logo-active {
+    transition: height 0.3s ease-in-out, width 0.3s ease-in-out,
+      max-width 0.3s ease-in-out;
+    cursor: pointer;
+    min-width: 150px;
+    max-width: 250px;
+    width: auto;
+    height: 55px;
+  }
+  
+  .scroll .logo-active {
+    height: 50px;
+  }
+  /* .smLogo > a > img {
+    height: 40px;
+    width: auto;
+    position: relative;
+    transition: height 0.3s ease-in-out;
+  } */
+  
+  @media only screen and (max-width: 991px) {
+    .nav-buttons a:first-child {
+      margin-bottom: 7px;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .logo-active {
+      width: auto;
+      height: 45px;
+    }
+    .scroll .logo-active {
+      height: 40px;
+    }
+  }
+  @media only screen and (max-width: 480px) {
+    header {
+      height: 60px;
+    }
+    .logo-active {
+      width: auto;
+      height: 40px;
+    }
+    .scroll .logo-active {
+      height: 37px;
+    }
+  }
+  

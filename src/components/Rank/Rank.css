@@ -1,0 +1,35 @@
+.lang-links {
+    cursor: pointer;
+}
+
+.rank {
+    border: 2px solid #e24e42;
+    border-radius: 30px;
+    padding-top: 50px;
+    text-decoration: underline;
+    color: #e24e42;
+}
+
+.ranked-langs {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.3rem;
+    margin-bottom: 1.3rem;
+    flex-wrap: wrap;
+}
+
+.lang-controls {
+    display: flex;
+    align-items: center;
+    margin-block-end: 1em;
+}
+
+.pretty {
+    margin-bottom: 16px;   
+}
+
+@media (max-width: 560px) {
+    .ranked-langs  {
+        flex-flow: column;
+    }
+  }

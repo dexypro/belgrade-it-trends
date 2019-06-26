@@ -1,0 +1,28 @@
+#newsletter .content {
+    background: #4EB7F2;
+    padding: 50px;
+}
+
+.ml-form-embedWrapper {
+    width: 70vw!important;
+}
+
+#mlb2-1154434.ml-form-embedContainer .ml-form-embedWrapper {
+    background: transparent!important;
+}
+
+.ml-form-embedContent h4 {
+    font-family: 'Comfortaa', cursive!important;
+    color: var(--five)!important;
+    font-size: 2em!important;
+    text-align: center!important;
+}
+
+.ml-form-embedContent p {
+    color: rgb(107, 107, 107)!important;
+    text-align: center!important;
+    margin-bottom: 30px!important
+}
+.ml-form-embedSubmit button{
+    cursor: pointer !important;
+}

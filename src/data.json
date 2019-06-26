@@ -1,0 +1,74 @@
+[
+    [
+        {
+            "name": "React",
+            "junior": 25,
+            "medior": 35,
+            "senior": 40
+        },
+        {
+            "name": "Angular",
+            "junior": 45,
+            "medior": 25,
+            "senior": 30
+        },
+        {
+            "name": "Vue",
+            "junior": 25,
+            "medior": 35,
+            "senior": 40
+        },
+        {
+            "name": "Js/jQuery",
+            "junior": 45,
+            "medior": 25,
+            "senior": 35
+        }
+    ],
+    [
+        {
+            "name": ".NET(C#)",
+            "junior": 35,
+            "medior": 35,
+            "senior": 30
+        },
+        {
+            "name": "Java",
+            "junior": 31,
+            "medior": 29,
+            "senior": 40
+        },
+        {
+            "name": "Python",
+            "junior": 25,
+            "medior": 30,
+            "senior": 45
+        },
+        {
+            "name": "PHP",
+            "junior": 40,
+            "medior": 30,
+            "senior": 30
+        }
+    ],
+    [
+        {
+            "name": "Android(Java)",
+            "junior": 35,
+            "medior": 30,
+            "senior": 35
+        },
+        {
+            "name": "iOS(Swift)",
+            "junior": 30,
+            "medior": 25,
+            "senior": 45
+        },
+        {
+            "name": "React Native",
+            "junior": 25,
+            "medior": 25,
+            "senior": 50
+        }
+    ]
+]
