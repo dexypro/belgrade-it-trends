@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import wave from '../../images/bg-wave-desktop.svg';
+import wave from '../../images/blackwave.svg';
 import logoAlt from '../../images/logo-alt.png';
 
 
