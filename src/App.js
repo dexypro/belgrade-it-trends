@@ -76,9 +76,8 @@ class App extends Component {
 		cData: {},
 		currentTopic: currentTopic,
 		rawData: rawData,
-		contributors: [],
 		chartChoice: "Polar",
-		zoomLevel: 55
+		zoomLevel: 55,
 	}
 }
 
@@ -164,8 +163,9 @@ handleZoomDecrement = () => {
 	});
 }
 
+
 render() {
-	const { cData, rawData, currentTopic, chartChoice, zoomLevel, minimZoom } = this.state;
+	const { cData, rawData, currentTopic, chartChoice, zoomLevel, minimZoom, urosStats } = this.state;
     return (
 		<div id="top">
 			<Particles className="particles" params={particlesOptions} />
@@ -178,6 +178,7 @@ render() {
 					{/* <Tooltip /> */}
 					<div className="chartHolder">
 						<div className="chartbox">
+							{urosStats}
 							<Chart data={cData} type={chartChoice} zoomLevel={zoomLevel} />
 						</div>
 						<div className="switchbox">
