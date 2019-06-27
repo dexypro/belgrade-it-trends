@@ -1,20 +1,16 @@
 import React from 'react';
 import './OurService.css';
-import curve from '../../images/bg-whitewave-desktop.svg';
+import curve from '../../images/bluewave.svg';
 import { FaRegListAlt, FaCoffee, FaSearchengin, FaMedal } from 'react-icons/fa';
 
 
 
 const OurService = () => (
-  <section id="newsletter">
+  <section id="services">
     <img src={curve} alt="" style={{ width: '100%' }} />
     <div className="content">
         <section className="content-section text-white text-center" id="services">
             <div className="container">
-                {/* <div class="content-section-heading">
-                    <h3 class="text-secondary mb-0">Services</h3>
-                    <h2 class="mb-5">What We Offer</h2>
-                </div> */}
                 <div className="row d-flex justify-content-center">
                     {/* Job Offers */}
                     <div className="col-lg-3 col-md-6 mb-5 mb-lg-0">

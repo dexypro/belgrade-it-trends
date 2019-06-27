@@ -25,20 +25,19 @@ const particlesOptions = {
 
 
 
-//update variable below according to tabs
+//update variable
 let currentCatIndexGlobal = 0;
-let loveHearts = [];
 const backgroundColors = [
-	'rgba(75,192,192,0.7',
-	'rgba(255,206,86,0.7)',
-	'rgba(255,99,132,0.7)',
-	'rgba(170,13,197,0.5)',
+	'rgba(75,192,192,0.7', // junior 
+	'rgba(255,206,86,0.7)', // medior
+	'rgba(255,99,132,0.7)', // senior
+	'rgba(170,13,197,0.5)', // for test
 	'rgba(170,13,197,0.5)' //last color is used for the Radar chart
 ];
 const pointColors = [  // these are used for the points on the Radar chart
-	'rgba(75,192,192,1)',
-	'rgba(255,206,86,1',
-	'rgba(255,99,132,1)',
+	'rgba(75,192,192,1)', // junior hover
+	'rgba(255,206,86,1', // medior hover
+	'rgba(255,99,132,1)', // senior hover
 ]
 // 'rgba(255,99,132,1)',
 const chartTitle = [' Front-end technologies', ' Backend technologies', ' Mobile technologies'];
@@ -81,15 +80,9 @@ class App extends Component {
 		chartChoice: "Polar",
 		zoomLevel: 55
 	}
-	// this.keyCount = 0;
-	// this.getKey = this.getKey.bind(this);
-	// this.setLoveHearts(currentTopic, rawData);
-	
 }
 
-// getKey() {
-// 	return this.keyCount++;
-//}
+
 
 componentDidMount() {
 	this.getData(this.state.currentTopic);
@@ -130,7 +123,7 @@ getData(currentSelection) {
 		})
 	});
 
-	// this.setLoveHearts(currentSelection, this.state.rawData);
+	
 }
 
 onTopicClick = (topic) => {
@@ -146,24 +139,6 @@ onNavClick = (index) => {
 			this.getData(this.state.rawData.langArray[0]);
 		})
 }
-
-// returnLove = (redHearts) => {
-// 	let maxHearts = 5;
-// 	const hearts = [];
-
-// 	while (redHearts--) {
-// 		hearts.push(<img src={Heart} alt="active love" height="25" key={this.getKey()} />);
-// 		maxHearts--;
-// 	}
-// 	while (maxHearts--)
-// 		hearts.push(<img src={Heart} alt="inactive love" height="25" key={this.getKey()} style={{ filter: "grayscale(1)" }} />)
-
-// 	return hearts;
-// }
-
-// setLoveHearts = (currentTopic, rawData) => {
-// 	loveHearts = this.returnLove(rawData.devLoveArray[rawData.langArray.indexOf(currentTopic)] / 20);
-// }
 
 changeChart = () => {
 	const choice = this.state.chartChoice === "Polar" ? "Radar" : "Polar";
@@ -189,17 +164,8 @@ handleZoomDecrement = () => {
 	});
 }
 
-// handleScroll = () => {
-// 	if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-// 	  document.getElementById("returnTop").style.display = "block";
-// 	} else {
-// 	  document.getElementById("returnTop").style.display = "none";
-// 	}
-// }
-
-
-  render() {
-	  const { cData, rawData, currentTopic, chartChoice, zoomLevel, minimZoom } = this.state;
+render() {
+	const { cData, rawData, currentTopic, chartChoice, zoomLevel, minimZoom } = this.state;
     return (
 		<div id="top">
 			<Particles className="particles" params={particlesOptions} />

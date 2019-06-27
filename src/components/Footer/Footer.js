@@ -52,10 +52,6 @@ const Footer = () => (
                         </div>
                     </div>
                 </div>
-                <div className="credits col-md-3 col-xs-12">
-                   
-                
-                </div>
             </div>
         </div>
     </div>

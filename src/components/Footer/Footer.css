@@ -64,20 +64,13 @@ footer .socials i:hover {
     .footer a {
         margin-top: 30px
     }
-    .credits {
-        margin: 30px auto 0px auto
-    }
-    .credits ul {
-        padding: 0!important
-    }
+    
     .footer .footDesc {
         text-align: center!important
     }
   }
   @media only screen and (min-width: 767px) {
-    .footer .credits {
-        text-align: right
-    }
+    
     .footDesc {
         width: 50%
     }
