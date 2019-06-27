@@ -2,73 +2,73 @@
     [
         {
             "name": "React",
-            "junior": 25,
-            "medior": 35,
-            "senior": 40
+            "junior": 14.4,
+            "medior": 57.2,
+            "senior": 28.4
         },
         {
             "name": "Angular",
-            "junior": 45,
-            "medior": 25,
-            "senior": 30
+            "junior": 13,
+            "medior": 50.5,
+            "senior": 36.5
         },
         {
             "name": "Vue",
-            "junior": 25,
-            "medior": 35,
-            "senior": 40
+            "junior": 8,
+            "medior": 43.5,
+            "senior": 35.5
         },
         {
             "name": "Js/jQuery",
-            "junior": 45,
-            "medior": 25,
-            "senior": 35
+            "junior": 25,
+            "medior": 40.5,
+            "senior": 34.5
         }
     ],
     [
         {
             "name": ".NET(C#)",
-            "junior": 35,
-            "medior": 35,
-            "senior": 30
+            "junior": 19,
+            "medior": 40.5,
+            "senior": 40.5
         },
         {
             "name": "Java",
-            "junior": 31,
-            "medior": 29,
-            "senior": 40
+            "junior": 22.5,
+            "medior": 42.5,
+            "senior": 35
         },
         {
             "name": "Python",
-            "junior": 25,
-            "medior": 30,
-            "senior": 45
+            "junior": 15.5,
+            "medior": 40.5,
+            "senior": 44
         },
         {
             "name": "PHP",
-            "junior": 40,
-            "medior": 30,
-            "senior": 30
+            "junior": 28.5,
+            "medior": 38,
+            "senior": 33.5
         }
     ],
     [
         {
             "name": "Android(Java)",
-            "junior": 35,
-            "medior": 30,
-            "senior": 35
+            "junior": 27.5,
+            "medior": 45,
+            "senior": 27.5
         },
         {
             "name": "iOS(Swift)",
-            "junior": 30,
-            "medior": 25,
-            "senior": 45
+            "junior": 19.5,
+            "medior": 38.5,
+            "senior": 42
         },
         {
             "name": "React Native",
-            "junior": 25,
-            "medior": 25,
-            "senior": 50
+            "junior": 5,
+            "medior": 36.5,
+            "senior": 58.5
         }
     ]
 ]
