@@ -50,19 +50,21 @@ const headerToggle = () => {
     return header.classList.toggle('is-open');
 }
 
+
 const dataExtractor = (categoryIndex) => {
-  return dataForChart[categoryIndex].reduce(( data, tech ) => {
+	return dataForChart[categoryIndex].reduce(( data, tech ) => {
 		data.langArray.push(tech.name);   
 		data.juniorArray.push(tech.junior);
 		data.mediorArray.push(tech.medior);
 		data.seniorArray.push(tech.senior);
+			
 		return data;
-  }, {
+	}, {
 		langArray: [],
 		juniorArray: [],
 		mediorArray: [],
 		seniorArray: []	  
-  });
+});
 };
 
 

@@ -11,7 +11,7 @@ const Navigation = ({ onNavClick, currentCategoryIndex }) => {
                 <div className="d-inline-block">
                     <Button
                         btnType="button"
-                        btnText="Front-End"
+                        btnText="Front-End"    
                         iconClass="fa-desktop"
                         className={isActive(0)}
                         onClick={() => onNavClick(0)} 

@@ -25,7 +25,7 @@ const Header = () => (
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div className="navbar-nav nav-buttons">
                     <Link 
-                        to="newsletter"
+                        to="services"
                         className="button-primary nav-item"
                         spy
                         activeClass="active"
